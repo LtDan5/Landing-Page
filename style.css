@@ -1,0 +1,95 @@
+header {
+  background-color: #1F2937;
+  font-size: 24px;
+  color: #F9FAF8;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.logo {
+  background-color: #1F2937;
+  font-size: 18px;
+  color: #F9FAF8;
+  height: 20px;
+  font-weight: 700;
+}
+
+.nav {
+  display: flex;
+  font-size: 14px;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.nav-links {
+  color: #F9FAF8;
+  text-decoration: none;
+}
+
+img {
+  height: 200px;
+  width: auto;
+}
+
+.first-section {
+  background-color: #1F2937;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-right: 20px;
+  gap:30px;
+}
+
+.awesome-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+  height: 200px;
+  width: 350px;
+  gap: 30px;
+  flex: 0 1 auto;
+  
+}
+
+.awesome {
+  font-size: 40px;
+  font-weight: 800;
+  color: #F9FAF8;
+  height: 10px;
+  padding: 0;
+  margin-top: 0;
+  word-spacing: 1px;
+  line-height: 40px;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.hero {
+  font-size: 16px;
+  color: #E5E7EB;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.awesome-button {
+  margin-top: -40px;
+  align-self: flex-start;
+  background-color: #3882F6;
+  border-radius: 3px;
+  color:#F9FAF8;
+  border: none;
+  padding: 5px 20px;
+  font-size: 12px;
+  font-weight:bold;
+}
